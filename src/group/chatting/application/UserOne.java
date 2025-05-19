@@ -18,7 +18,7 @@ public class UserOne implements ActionListener, Runnable{
     
     BufferedReader reader;
     BufferedWriter writer;
-    String name = "Kaleen Bhaiya";
+    String name = "UserOne";
     UserOne(){
         f.setLayout(null);
         JPanel p1 = new JPanel();
@@ -40,7 +40,7 @@ public class UserOne implements ActionListener, Runnable{
             }
         });
         
-        ImageIcon i4 = new ImageIcon(ClassLoader.getSystemResource("icons/1.png"));
+        ImageIcon i4 = new ImageIcon(ClassLoader.getSystemResource("icons/UserImage.png"));
         Image i5 = i4.getImage().getScaledInstance(60, 60, Image.SCALE_DEFAULT);
         ImageIcon i6 = new ImageIcon(i5);
         JLabel profile = new JLabel(i6);
@@ -68,13 +68,13 @@ public class UserOne implements ActionListener, Runnable{
         more.setBounds(420, 20, 10, 25);
         p1.add(more);
         
-        JLabel name = new JLabel("Mirzapur");
+        JLabel name = new JLabel("WhatsApp Group");
         name.setBounds(110, 15, 100, 18);
         name.setForeground(Color.WHITE);
         name.setFont(new Font("SAN_SERIF", Font.BOLD, 18));
         p1.add(name);
         
-        JLabel status = new JLabel("Kaleen, Guddu, Bablu, Sweety, IG Dubey, Shukla");
+        JLabel status = new JLabel("UserOne, UserTwo, UserThree, UserFour, UserFive");
         status.setBounds(110, 35, 160, 18);
         status.setForeground(Color.WHITE);
         status.setFont(new Font("SAN_SERIF", Font.BOLD, 14));
